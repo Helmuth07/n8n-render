@@ -11,9 +11,3 @@ ENV N8N_PORT=5678
 ENV N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false
 
 EXPOSE 5678
-
-WORKDIR /home/node
-
-# 🧠 usar la ruta completa del binario
-CMD ["node", "/usr/local/lib/node_modules/n8n/bin/n8n"]
-
